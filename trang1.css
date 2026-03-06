@@ -2,6 +2,7 @@ body {
   background-color: white;
   background-position: center;
   overflow: hidden;
+  align-items: center;
 }
 h2 {
   color: rgb(227, 95, 95);
@@ -39,6 +40,7 @@ img {
   left: 50%;
   margin-bottom: 50px;
 }
+
 
 
 
