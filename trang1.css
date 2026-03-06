@@ -37,8 +37,8 @@ button {
   z-index: 999;
 }
 img {
-  transform: translateX(0);
   left: 50%;
   margin-bottom: 50px;
 }
+
 
