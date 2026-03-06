@@ -1,0 +1,43 @@
+body {
+  background-color: white;
+  background-position: center;
+  overflow: hidden;
+  align-items: center;
+}
+h2 {
+  color: rgb(227, 95, 95);
+  text-align: center;
+  margin-bottom: 50px;
+}
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: transform 0.1s;
+}
+.btn {
+  margin-top: 20px;
+  position: relative;
+  width: 300px;
+  height: 100px;
+  transform: translateX(50%);
+}
+.yesBtn {
+  background-color: #00b894;
+  color: white;
+  width: 150px;
+}
+#noBtn {
+  background-color: #ff7675;
+  color: white;
+  width: 120px;
+  position: fixed;
+  right: 0;
+  z-index: 999;
+}
+img {
+  transform: translateX(60%);
+  left: 50%;
+  margin-bottom: 50px;
+}

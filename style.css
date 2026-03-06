@@ -1,0 +1,44 @@
+body {
+  background-image: url("hoatulip.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  font-family: "Dancing Script", cursive;
+}
+h1 {
+  margin-bottom: 20px;
+}
+p {
+  margin-bottom: 15px;
+}
+.tlip {
+  bottom: 20px;
+  left: 100%;
+}
+.tlip img {
+  width: 100%;
+}
+.nen-trong {
+  padding: 80px;
+  padding-right: 50px;
+}
+.kiten {
+  margin-left: 85%;
+}
+.my {
+  margin-bottom: 50px;
+}
+button {
+  margin-bottom: 115px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: pink;
+  cursor: pointer;
+  text-align: center;
+}
+button:hover {
+  transform: translateY(-10%);
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.2);
+}
