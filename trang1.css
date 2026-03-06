@@ -33,13 +33,14 @@ button {
   color: white;
   width: 120px;
   position: fixed;
-  right: 0;
+  right: 50px;
   z-index: 999;
 }
 img {
   left: 50%;
   margin-bottom: 50px;
 }
+
 
 
 
