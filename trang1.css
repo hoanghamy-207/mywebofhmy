@@ -32,13 +32,15 @@ button {
   color: white;
   width: 120px;
   position: fixed;
-  left: 70px;
+  left: 40px;
   z-index: 999;
+  margin-bottom: 50px;
 }
 img {
   left: 50%;
   margin-bottom: 50px;
 }
+
 
 
 
