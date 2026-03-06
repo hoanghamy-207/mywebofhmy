@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="trang1.css"></link>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Xin chào người phụ nữ tuyệt vời nhất thế gian~~~🌷💐🌹 </h2>
+    <p align="center">Mẹ có quà 8/3 cho con không théeeeee ?</p>
+    <img src="tho.gif" alt="">
+    <div class="btn">
+        <form action="trangtt.html">
+            <button type="submit" class="yesBtn" onclick="fireworks">ĐỒNG Ý</button>
+        </form>
+        <button type="button" id="noBtn">KHÔNG</button>
+    </div>
+    <script>
+        const noBtn = document.getElementById('noBtn');
+
+        noBtn.addEventListener('mouseover', function(){
+          move()
+        });
+
+        noBtn.addEventListener('touchstart', function(e) {
+          e.preventDefault();
+          move();
+        });
+        function move(){
+          const x = Math.random() * 100 +"%";
+          const y = Math.random() * 100 + "%";
+          noBtn.style.position = 'absolute';
+          noBtn.style.left = x;
+          noBtn.style.top = y;
+        }
+        function fireworks() {
+          confetti({
+            particleCount: 100,
+            origin: { x: 0 }
+          });
+          confetti({
+            particleCount: 100,
+            origin: { x: 1 }
+          });
+        }
+        
+    </script> 
+  </body>
+</html>
